@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Circular";
+    src: url(./assets/fonts/lineto-circular-pro-book.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Circular";
+    src: url(./assets/fonts/lineto-circular-pro-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url(./assets/fonts/lineto-circular-pro-bold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url(./assets/fonts/lineto-circular-pro-black.ttf);
+    font-weight: 800;
+}
+
+body {
+
+}
+
+h1 {
+
+}
+
+#login-logo {
+    width: 200px
+}
+
+@media (max-width:768px) {
+    #login-logo {
+        width: 125px
+    }
+}
+
+.btn-outline-black, .btn-success, .btn-dark {
+    /* border-radius: 50%; */
+    font-family: "Circular", sans-serif;
+    font-weight: 400;
+}
+
+.btn-green {
+    background-color: rgb(32, 175, 79);
+}
